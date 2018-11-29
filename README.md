@@ -27,7 +27,7 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='https://imgur.com/a/zUj89Sm' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+[Video Walkthrough of My Tippy App](https://imgur.com/a/zUj89Sm)
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
