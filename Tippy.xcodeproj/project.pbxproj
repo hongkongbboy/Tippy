@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		8E4E160121AD550400013AE2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E160021AD550400013AE2 /* AppDelegate.swift */; };
 		8E4E160321AD550400013AE2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E160221AD550400013AE2 /* ViewController.swift */; };
-		8E4E160621AD550400013AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4E160421AD550400013AE2 /* Main.storyboard */; };
 		8E4E160821AD550E00013AE2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8E4E160721AD550E00013AE2 /* Assets.xcassets */; };
 		8E4E160B21AD550E00013AE2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4E160921AD550E00013AE2 /* LaunchScreen.storyboard */; };
 		8E4E161621AD550E00013AE2 /* TippyTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E161521AD550E00013AE2 /* TippyTests.swift */; };
 		8E4E162121AD550E00013AE2 /* TippyUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8E4E162021AD550E00013AE2 /* TippyUITests.swift */; };
+		8E4E163321AD577700013AE2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8E4E160421AD550400013AE2 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -229,9 +229,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8E4E163321AD577700013AE2 /* Main.storyboard in Resources */,
 				8E4E160B21AD550E00013AE2 /* LaunchScreen.storyboard in Resources */,
 				8E4E160821AD550E00013AE2 /* Assets.xcassets in Resources */,
-				8E4E160621AD550400013AE2 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +300,7 @@
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
+			usesTabs = 0;
 		};
 		8E4E160921AD550E00013AE2 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
@@ -441,7 +442,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Tippy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -458,7 +459,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "-.Tippy";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
