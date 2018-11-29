@@ -27,13 +27,15 @@ The following **additional** features are implemented:
 
 Here's a walkthrough of implemented user stories:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='https://imgur.com/a/zUj89Sm' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
 
 ## Notes
 
 Describe any challenges encountered while building the app.
+
+- Some of the challenges that I encounter with this project is I need to update my Mac operating system multiple times in order to get the right version to use the most up to date xcode software. Also, my xcode version looks a little different than the xcode version of the tutorial, so it takes a some times to find where those uiview and button locates at.
 
 ## License
 
